@@ -11,6 +11,8 @@
 |
 */
 
+$router->get('/pariwisata', 'PariwisataController@index');
+
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
